@@ -1,0 +1,41 @@
+
+
+h1{ 
+    margin:18px 0px;
+    text-align: center;
+}
+
+#myForm{
+    margin: 10px 0px;
+}
+
+
+form{
+    margin:7px 0px;
+    display: block;
+    width: 500px;
+    margin:  0px auto;
+    
+}
+
+input{
+    text-align: center;
+    width: 500px;
+    border-radius: 10px;
+    height: 30px;
+    margin: 5px 0px;
+    outline: none;
+}
+
+button{
+    
+    color: white;
+    border :2px solid black;
+    border-radius: 20px;
+    background-color: rgb(112, 97, 97);
+    width: 90px;
+    margin:10px 200px;
+    padding: 5px 0px;
+    outline: none;
+    cursor: pointer;
+}

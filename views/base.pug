@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title myDanceWeb
+    block scripts
+    block style
+  body
+    nav#navbar
+      div#logo
+        img(src="../static/img/logo.png", alt="")
+        p let's dance
+      ul
+        li #[a(href="/") Home ]         
+        li #[a(href="/about") About] 
+        li #[a(href="/services") services] 
+        li #[a(href="/contact") ContactUs]
+
+    block content
+
+    footer
+     |© Copyright 2014, All Rights Reserved
